@@ -1,6 +1,6 @@
 package Day1;
 
-public class IIcountDuplicateElementUsingFor {
+public class II1CountDuplicateElementUsingFor {
 
 	public static void main(String[] args) {
 		int[] arr = { 10, 20, 30, 10, 40, 50, 20, 30, 10 };
