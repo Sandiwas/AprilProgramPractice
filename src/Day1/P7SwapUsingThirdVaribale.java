@@ -1,4 +1,4 @@
-package Day1;
+package day1;
 
 public class P7SwapUsingThirdVaribale {
 	public static void main(String[] args) {

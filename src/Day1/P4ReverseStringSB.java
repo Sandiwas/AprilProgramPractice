@@ -1,4 +1,4 @@
-package Day1;
+package day1;
 
 public class P4ReverseStringSB {
 	public static void main(String[] args) {
