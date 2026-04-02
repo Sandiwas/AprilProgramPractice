@@ -1,6 +1,6 @@
 package day2;
 
-public class I6FindThirdLargestNumber {
+public class I5FindSecondLargestNumber {
 	public static void main(String[] args) {
 		int arr[] = { 10, 15, 20, 20, 30, 10, 20 };
 		if (arr.length < 2) {
