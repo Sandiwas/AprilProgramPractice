@@ -1,6 +1,6 @@
 package methodWay;
 
-public class S1PalindromeString {
+public class p2PalindromeString {
 	public static void main(String[] args){
 		
 	    String str="Radar";
