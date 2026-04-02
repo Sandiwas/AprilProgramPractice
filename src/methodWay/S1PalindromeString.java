@@ -1,4 +1,4 @@
-package MethodWayProgram;
+package methodWay;
 
 public class S1PalindromeString {
 	public static void main(String[] args){
