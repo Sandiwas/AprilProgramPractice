@@ -30,6 +30,7 @@ public class II5JoinArrayRemoveDuplicateNumberUsingForOPInArray {
 
 		int index = 0;
 		int[] temp = new int[arr.length];
+		System.out.println(Arrays.toString(temp));
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] != -1) {
 				temp[index++] = arr[i];
