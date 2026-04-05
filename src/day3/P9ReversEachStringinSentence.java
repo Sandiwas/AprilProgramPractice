@@ -2,11 +2,11 @@ package day3;
 
 public class P9ReversEachStringinSentence {
 	public static void main(String[] args) {
-		
+
 		String str = "Automation is fun";
-		
+
 		String[] arr = str.split(" ");
-		
+
 		String result = "";
 
 		for (int i = 0; i < arr.length; i++) {
