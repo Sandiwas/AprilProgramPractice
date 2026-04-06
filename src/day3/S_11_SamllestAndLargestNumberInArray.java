@@ -16,3 +16,4 @@ public class S_11_SamllestAndLargestNumberInArray {
 		System.out.println("Largest number in array is :"+largest);
 
 	}
+}
