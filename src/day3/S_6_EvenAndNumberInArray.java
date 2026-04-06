@@ -28,3 +28,5 @@ public class S_6_EvenAndNumberInArray {
 		}
 	}
 }
+//Even number are : 6 4 2 
+//Odd number are : 5 3 7 1 

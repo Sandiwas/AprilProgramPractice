@@ -20,7 +20,7 @@ public class S_7_EvenAndNumberInArray {
 
 		int e = 0;
 		int o = 0;
-		
+
 		// Step 2: Create arrays of exact size
 		int[] even = new int[evenCount];
 		int[] odd = new int[oddCount];
@@ -38,3 +38,7 @@ public class S_7_EvenAndNumberInArray {
 		System.out.println("Odd numbers: " + Arrays.toString(odd));
 	}
 }
+
+
+//Even numbers: [6, 4, 2]
+//Odd numbers: [5, 3, 7, 1]
