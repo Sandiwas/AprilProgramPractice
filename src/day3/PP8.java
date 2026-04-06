@@ -6,7 +6,7 @@ public class PP8 {
 			for (int j = 3; j >= i; j--) {
 				System.out.print(" ");
 			}
-			for (int k = 1; k <= i; i++) {
+			for (int k = 1; k <= i; k++) {
 				System.out.print("* ");
 			}
 			System.out.println("");
