@@ -8,7 +8,7 @@ public class PP26 {
 			}
 			char ch = (i % 2 == 0) ? '*' : '&';
 			for (int k = 1; k <= i; k++) {
-				System.out.print(ch+" ");
+				System.out.print(ch + " ");
 			}
 			System.out.println();
 		}
