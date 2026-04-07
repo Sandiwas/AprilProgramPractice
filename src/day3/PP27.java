@@ -8,11 +8,17 @@ public class PP27 {
 			}
 			char ch = (i % 2 == 0) ? '*' : '&';
 			for (int k = 1; k <= i; k++) {
-				System.out.print(ch);
+				System.out.print(ch+" ");
 			}
-			char ch1 = (i % 2 == 0) ? '*' : '&';
-			for (int l = 2; l <= i; l++) {
-				System.out.print(ch1);
+			System.out.println();
+		}
+		for (int i = 1; i <= 3; i++) {
+			for (int j = 1; j <= i; j++) {
+				System.out.print(" ");
+			}
+			char ch = (i % 2 == 0) ? '*' : '&';
+			for (int k = 3; k >= i; k--) {
+				System.out.print(ch+" ");
 			}
 			System.out.println();
 		}
