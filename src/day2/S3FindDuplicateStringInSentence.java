@@ -3,7 +3,7 @@ package day2;
 public class S3FindDuplicateStringInSentence {
 	public static void main(String[] args) {
 		
-		String str = "Sandip gahuadas Wasekar sandip";
+		String str = "I am learning learning java java";
 		str = str.toLowerCase();
 		String[] arr = str.split(" ");
 		
@@ -15,7 +15,7 @@ public class S3FindDuplicateStringInSentence {
 			for (int j = i + 1; j < arr.length; j++) {
 				if (arr[i].equals(arr[j])) {
 					count++;
-					arr[j] = arr[i];
+					arr[j] = "0";
 				}
 			}
 			if (count > 1 && !arr[i].equals("0")) {
