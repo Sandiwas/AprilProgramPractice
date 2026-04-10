@@ -4,6 +4,7 @@ public class P9ReversEachStringinSentence {
 	public static void main(String[] args) {
 		String str = "Automation  is fun";
 		System.out.println(reverseString(str));
+		
 	}
 
 	public static String reverseString(String str) {
