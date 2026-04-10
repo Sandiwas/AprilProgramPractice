@@ -7,7 +7,7 @@ public class I5FindSecondLargestNumber {
 			System.out.println("Invlaid Input");
 		}
 
-		int largest = Integer.MIN_VALUE;
+		int largest = Integer.MIN_VALUE;//-2147483648
 		int second = Integer.MIN_VALUE;
 
 		for (int i = 0; i < arr.length; i++) {
