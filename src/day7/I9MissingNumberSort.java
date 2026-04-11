@@ -3,7 +3,7 @@ package day7;
 public class I9MissingNumberSort {
 
 	public static void main(String[] args) {
-		int[] arr = { 5, 4, 1, 2 };
+		int[] arr = { 5, 4, 1,1, 2 };
 		sortArray(arr);
 		int expected = 1;
 		for (int i = 0; i < arr.length; i++) {
