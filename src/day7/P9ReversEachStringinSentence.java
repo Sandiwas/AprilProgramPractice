@@ -13,6 +13,9 @@ public class P9ReversEachStringinSentence {
 			}
 			result = result + reverseWord + " ";
 		}
+		
 		System.out.println(result);
+	
 	}
+	
 }

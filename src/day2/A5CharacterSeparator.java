@@ -21,12 +21,11 @@ public class A5CharacterSeparator {
 				symboles += ch;
 			}
 		}
+		
 		System.out.println("UpperCase letter : " + UpperCaseletters);
 		System.out.println("LowerCase letter :  " + LowerCaseletters);
 		System.out.println("Numbers  : " + numbers);
 		System.out.println("Symboles : " + symboles);
-
+		
 	}
-	
-	
 }
