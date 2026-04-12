@@ -42,3 +42,8 @@ public class A1AscendingAndDescendingString {
 		return new String(arr);
 	}
 }
+
+//A to Z  65 to 90
+//a to z  97 to 122
+//0 to 9  48 to 57
+
