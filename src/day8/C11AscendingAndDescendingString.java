@@ -1,6 +1,6 @@
 package day8;
 
-import java.util.Arrays;
+
 
 public class C11AscendingAndDescendingString {
 	public static void main(String[] args) {
