@@ -7,10 +7,12 @@ public class I9MissingNumberSort {
 		sortArray(arr);
 		int expected = 1;
 		for (int i = 0; i < arr.length; i++) {
+			
 			// Skip duplicates
 			if (i > 0 && arr[i] == arr[i - 1]) {
 				continue;
 			}
+			
 			// Check missing number
 			if (arr[i] != expected) {
 				System.out.println("Missing number is "+expected);
