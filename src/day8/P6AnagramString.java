@@ -4,22 +4,22 @@ public class P6AnagramString {
 	public static void main(String[] args) {
 		String str1 = "arm Y";
 		String str2 = "ma Ry";
+
 		str1 = removeSpaceMakeLowerCase(str1);
 		str2 = removeSpaceMakeLowerCase(str2);
+
 		char[] arr1 = str1.toCharArray();
 		char[] arr2 = str2.toCharArray();
+
 		sortArray(arr1);
 		sortArray(arr2);
-		isAnagram(arr1, arr2);
 
-	}
-
-	public static void isAnagram(char[] arr1, char[] arr2) {
 		if (isEquals(arr1, arr2)) {
-			System.out.println("Given String are Anagram");
+			System.out.println("Given string is Anagram");
 		} else {
-			System.out.println("Given String are not Anagram");
+			System.out.println("Given string is not Anagram");
 		}
+
 	}
 
 	public static boolean isEquals(char[] arr1, char[] arr2) {
@@ -55,6 +55,15 @@ public class P6AnagramString {
 				result = result + arr[i];
 			}
 		}
-		return result.toLowerCase();
+		String finalResult = "";
+		for (int i = 0; i < result.length(); i++) {
+			char ch = result.charAt(i);
+			if (ch >= 'A' && ch <= 'Z') {
+				ch = (char) (ch + 32);
+			}
+			finalResult = finalResult + ch;
+		}
+		return finalResult;
 	}
+
 }
