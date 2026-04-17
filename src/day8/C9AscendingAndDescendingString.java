@@ -35,6 +35,9 @@ public class C9AscendingAndDescendingString {
 		System.out.println("Acending order LowerCase " + sortDecendingOrder(lowerCase));
 		System.out.println("Acending order Number " + sortDecendingOrder(numbers));
 		System.out.println("Acending order symbol " + sortDecendingOrder(symbol));
+		
+		System.out.println(sortAcendingOrder(str));
+		System.out.println(sortDecendingOrder(str));
 	}
 
 	public static String sortAcendingOrder(String str) {
